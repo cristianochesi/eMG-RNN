@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper that introduced eMG-RNN."
+title: "eMG-RNN: expectation-based Minimalist Grammar Recurrent Neural Network"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Chesi
+    given-names: Cristiano
+    affiliation: "IUSS Pavia, NeTS Lab"
+keywords:
+  - recurrent neural networks
+  - language models
+  - Minimalist Grammars
+  - Tolerance Principle
+  - BabyLM
+preferred-citation:
+  type: conference-paper
+  title: "Different Ways to Forget: Linguistic Gates in Recurrent Neural Networks"
+  authors:
+    - family-names: Chesi
+      given-names: Cristiano
+    - family-names: Bressan
+      given-names: Veronica
+    - family-names: Barbini
+      given-names: Matilde
+    - family-names: Fusco
+      given-names: Achille
+    - family-names: Bianchessi
+      given-names: Maria Letizia Piccini
+    - family-names: Neri
+      given-names: Sofia
+    - family-names: Rossi
+      given-names: Sarah
+    - family-names: Sgrizzi
+      given-names: Tommaso
+  collection-title: "The 2nd BabyLM Challenge at the 28th Conference on Computational Natural Language Learning"
+  publisher:
+    name: "Association for Computational Linguistics"
+  conference:
+    name: "The 2nd BabyLM Challenge at CoNLL 2024"
+    city: Miami
+    region: FL
+    country: US
+  year: 2024
+  month: 11
+  start: 106
+  end: 117
+  url: "https://aclanthology.org/2024.conll-babylm.9/"

@@ -1,0 +1,15 @@
+# eMG-RNN (expectation-based Minimalist Grammar Recurrent Neural Network)
+# Tested on Linux with Python 3.13, torch 2.14.1, transformers 4.46.3 and 5.19.0,
+# numpy 2.5.3 and lm_eval 0.4.13.
+# For GPU training, install the CUDA build of PyTorch for your driver first:
+#   https://pytorch.org/get-started/locally/
+
+torch>=2.3            # torch.amp.GradScaler("cuda") and torch.autocast in the trainer
+transformers>=4.46    # Hugging Face wrapper EMGLanguageModel
+numpy>=1.24           # dataset cache, batching and morpheme indexing
+
+# stat_mor_learning.py needs only the Python standard library.
+
+# Optional, for evaluation with lm-evaluation-harness (lm_eval_emg.py, and the
+# built-in "hf" model for EMGLanguageModel); tested with lm_eval 0.4.13:
+# lm_eval[hf]>=0.4
